@@ -1,0 +1,26 @@
+{
+    "packageDirectories": [
+        {
+            "path": "requests-app",
+            "default": true,
+            "package": "sfdc-requests-mikesimps",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "requests-app",
+            "package": "sfdc-requests",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "44.0",
+    "packageAliases": {
+        "sfdc-requests-mikesimps": "0Ho2J000000blJOSAY",
+        "sfdc-requests": "0Ho2J000000blJTSAY",
+        "sfdc-requests@0.1.0-1": "04t2J000000kr3QQAQ"
+    }
+}
