@@ -4,5 +4,10 @@
     <entityName>Request__c</entityName>
     <fieldName>Status__c</fieldName>
     <masterLabel>Request - Issue</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Description__c</fieldNames>
+        <fieldNames>Justification__c</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>Issue</recordTypeName>
 </PathAssistant>

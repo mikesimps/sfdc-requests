@@ -4,5 +4,9 @@
     <entityName>Request__c</entityName>
     <fieldName>Status__c</fieldName>
     <masterLabel>Request - Maintenance</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Actual__c</fieldNames>
+        <picklistValueName>Complete</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>Maintenance</recordTypeName>
 </PathAssistant>

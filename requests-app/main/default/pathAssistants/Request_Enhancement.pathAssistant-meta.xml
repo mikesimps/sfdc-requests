@@ -4,5 +4,20 @@
     <entityName>Request__c</entityName>
     <fieldName>Status__c</fieldName>
     <masterLabel>Request - Enhancement</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Priority__c</fieldNames>
+        <fieldNames>Estimate__c</fieldNames>
+        <picklistValueName>Backlog</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Actual__c</fieldNames>
+        <picklistValueName>Complete</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>Description__c</fieldNames>
+        <fieldNames>Justification__c</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>Enhancement</recordTypeName>
 </PathAssistant>

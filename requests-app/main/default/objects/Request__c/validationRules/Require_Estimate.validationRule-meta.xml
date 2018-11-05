@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Estimate</fullName>
+    <active>true</active>
+    <description>Require an estimate for Maintenance and Enhancement requests to get into backlog status</description>
+    <errorConditionFormula>(RecordType.DeveloperName = &#39;Enhancement&#39; ||
+RecordType.DeveloperName = &#39;Maintenance&#39;) 
+&amp;&amp; ISBLANK(Estimate__c)
+&amp;&amp; NOT(ISPICKVAL(Status__c,&#39;New&#39;))
+&amp;&amp; ISCHANGED(Status__c)</errorConditionFormula>
+    <errorDisplayField>Estimate__c</errorDisplayField>
+    <errorMessage>You must have an estimate to move beyond the &quot;New&quot; status. Please add an estimate and then change the status.</errorMessage>
+</ValidationRule>
