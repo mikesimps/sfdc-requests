@@ -2,18 +2,10 @@
     "packageDirectories": [
         {
             "path": "requests-app",
-            "package": "sfdc-requests",
-            "versionName": "Pre V1",
-            "versionNumber": "0.2.0.NEXT",
             "default": true
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
-    "packageAliases": {
-        "sfdc-requests": "0Ho2J000000blJTSAY",
-        "sfdc-requests@0.1.0-1": "04t2J000000kr3QQAQ",
-        "sfdc-requests@0.2.0-1": "04t2J000000kr3VQAQ"
-    }
+    "sourceApiVersion": "44.0"
 }
