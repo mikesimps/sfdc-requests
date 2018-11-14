@@ -8,7 +8,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>numVisibleActions</name>
-                <value>6</value>
+                <value>10</value>
             </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
@@ -29,17 +29,6 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>context</name>
-                <value>RECORD</value>
-            </componentInstanceProperties>
-            <componentName>forceChatter:exposedFeed</componentName>
-        </componentInstances>
-        <name>Facet-741d8d87-d873-4201-915d-fbef669b41d2</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <componentInstances>
-            <componentInstanceProperties>
                 <name>parentFieldApiName</name>
                 <value>Request__c.Id</value>
             </componentInstanceProperties>
@@ -53,26 +42,7 @@
             </componentInstanceProperties>
             <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
-        <name>Facet-1474bb5c-7098-48f6-8927-a57f553d6332</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>parentFieldApiName</name>
-                <value>Request__c.Id</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>relatedListApiName</name>
-                <value>Requests__r</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>NONE</value>
-            </componentInstanceProperties>
-            <componentName>force:relatedListSingleContainer</componentName>
-        </componentInstances>
-        <name>Facet-eac23cdf-6df0-463c-8266-3e2e65e48a03</name>
+        <name>Facet-0b4ff8e7-cead-4d9b-88ef-733b05fcb3de</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -87,11 +57,11 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>relatedListComponentOverride</name>
-                <value>NONE</value>
+                <value>GRID</value>
             </componentInstanceProperties>
             <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
-        <name>Facet-4d270ced-795d-4e14-886e-c7630f08d5e9</name>
+        <name>Facet-1ff7b193-1d51-4cbf-ab1e-f4f0a295298a</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -110,121 +80,139 @@
             </componentInstanceProperties>
             <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
-        <name>Facet-25769c03-2ac0-495e-9ea0-5ccbdebcccbc</name>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>parentFieldApiName</name>
+                <value>Request__c.Id</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListApiName</name>
+                <value>Histories</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>NONE</value>
+            </componentInstanceProperties>
+            <componentName>force:relatedListSingleContainer</componentName>
+        </componentInstances>
+        <name>Facet-99e4a430-163a-49ef-9ed0-ef54d7f39f21</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
+                <name>parentFieldApiName</name>
+                <value>Request__c.Id</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListApiName</name>
+                <value>ProcessSteps</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>NONE</value>
+            </componentInstanceProperties>
+            <componentName>force:relatedListSingleContainer</componentName>
+        </componentInstances>
+        <name>Facet-z0pt6iimji</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>active</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-741d8d87-d873-4201-915d-fbef669b41d2</value>
+                <value>Facet-0b4ff8e7-cead-4d9b-88ef-733b05fcb3de</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>label</name>
-                <value>Standard.Tab.collaborate</value>
+                <name>title</name>
+                <value>Standard.Tab.tasks</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>name</name>
-                <value>accordionSection--pc0g8xj70e</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordionSection</componentName>
+            <componentName>flexipage:tab</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-1474bb5c-7098-48f6-8927-a57f553d6332</value>
+                <value>Facet-1ff7b193-1d51-4cbf-ab1e-f4f0a295298a</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>label</name>
-                <value>Open Tasks</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>name</name>
-                <value>accordionSection1</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordionSection</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>body</name>
-                <value>Facet-eac23cdf-6df0-463c-8266-3e2e65e48a03</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>label</name>
-                <value>Related Requests</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>name</name>
-                <value>accordionSection2</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordionSection</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>body</name>
-                <value>Facet-4d270ced-795d-4e14-886e-c7630f08d5e9</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>label</name>
+                <name>title</name>
                 <value>Files</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>name</name>
-                <value>accordionSection--g62gzq40fgv</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordionSection</componentName>
+            <componentName>flexipage:tab</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>Facet-25769c03-2ac0-495e-9ea0-5ccbdebcccbc</value>
+                <value>Facet-99e4a430-163a-49ef-9ed0-ef54d7f39f21</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
-                <name>label</name>
-                <value>All Tasks</value>
+                <name>title</name>
+                <value>History</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>name</name>
-                <value>accordionSection--myfpdvm61s</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordionSection</componentName>
+            <componentName>flexipage:tab</componentName>
         </componentInstances>
-        <name>Facet-3b8c34b0-ffd2-48e3-abd0-d5a212e58c52</name>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>body</name>
+                <value>Facet-z0pt6iimji</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>title</name>
+                <value>Approvals</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:tab</componentName>
+        </componentInstances>
+        <name>Facet-da49d8d4-9e41-4935-9d46-460917a1cf35</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>context</name>
-                <value>RECORD</value>
+                <name>parentFieldApiName</name>
+                <value>Request__c.Id</value>
             </componentInstanceProperties>
-            <componentName>forceChatter:publisher</componentName>
+            <componentInstanceProperties>
+                <name>relatedListApiName</name>
+                <value>Requests__r</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>NONE</value>
+            </componentInstanceProperties>
+            <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
-                <name>accordionSections</name>
-                <value>Facet-3b8c34b0-ffd2-48e3-abd0-d5a212e58c52</value>
+                <name>tabs</name>
+                <value>Facet-da49d8d4-9e41-4935-9d46-460917a1cf35</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>defaultSectionName</name>
-                <value>accordionSection1</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:accordion</componentName>
+            <componentName>flexipage:tabset</componentName>
         </componentInstances>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>force:detailPanel</componentName>
+            <componentName>forceChatter:recordFeedContainer</componentName>
         </componentInstances>
-        <name>sidebar</name>
+        <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Request Record page</masterLabel>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>force:detailPanel</componentName>
+        </componentInstances>
+        <name>leftsidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Requests Record Page</masterLabel>
     <sobjectType>Request__c</sobjectType>
     <template>
-        <name>flexipage:recordHomeLeftSidebarTemplateDesktop</name>
+        <name>flexipage:recordHomePinnedHeaderLeftSidebarTemplateDesktop</name>
     </template>
     <type>RecordPage</type>
 </FlexiPage>
